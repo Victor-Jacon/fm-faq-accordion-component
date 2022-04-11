@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ProductReviewsController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,3 +21,5 @@ Route::get('/', function () {
 Route::get('/accordion-component', function () {
     return view('accordion-component');
 });
+
+Route::get('/wirecutter-clone', [ProductReviewsController::class, 'index']);
