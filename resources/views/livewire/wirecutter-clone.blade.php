@@ -1,10 +1,5 @@
 <div>
     {{
-        $productReview = $productReviews[0]
-    }}
-
-    {{
-        dd($productReview->title)
-
+$productReviews[0]->title
     }}
 </div>
