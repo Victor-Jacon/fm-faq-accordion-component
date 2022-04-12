@@ -35,7 +35,15 @@
             </div>
 
             <div class="bg-purple-300 rounded-lg p-2">
-                <a class="text-white font-bold text-2xl">Accordion Component</a>
+                <a 
+                href="/wirecutter-clone"
+                class="text-white font-bold text-2xl">Wirecutter clone</a>
+            </div>
+
+            <div class="bg-purple-300 rounded-lg p-2">
+                <a 
+                href="/admin"
+                class="text-white font-bold text-2xl">Admin(CMS)</a>
             </div>
         </div>
     </body>

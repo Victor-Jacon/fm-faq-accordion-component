@@ -16,7 +16,7 @@ use App\Http\Controllers\ProductReviewsController;
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('home');
 
 Route::get('/accordion-component', function () {
     return view('accordion-component');

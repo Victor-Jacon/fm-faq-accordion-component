@@ -5,10 +5,15 @@ module.exports = {
         "./resources/**/*.vue",
     ],
     theme: {
-        fontFamily: {
-            kumbh: ["Kumbh sans-serif"],
+        extend: {
+            fontFamily: {
+                kumbh: ["Kumbh sans-serif"],
+                franklin: ["Franklin"],
+            },
+            colors: {
+                disclaimer: "#F4F2EF",
+            },
         },
-        extend: {},
     },
     plugins: [],
 };
